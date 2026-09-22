@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+env/
+venv/
+.venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment secrets
+.env
+!.env.example
+
+# File uploads (preserve directory structure via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Logs & test coverage
+*.log
+coverage/
+.nyc_output/
+phase1_requirements.txt
